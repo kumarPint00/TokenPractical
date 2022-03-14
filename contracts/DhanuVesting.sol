@@ -352,8 +352,8 @@ contract DhanuVesting is Dhanu, Initializable {
             (totalSupply * 136) / 1000
         );
 
-        vestTypes[6] = VestType(
-            6,
+        vestTypes[7] = VestType(
+            7,
             AirDropTimeLock,
             AirDropVesting,
             21,
@@ -361,8 +361,8 @@ contract DhanuVesting is Dhanu, Initializable {
             (totalSupply * 21) / 1000
         );
 
-        vestTypes[7] = VestType(
-            7,
+        vestTypes[8] = VestType(
+            8,
             ReservedTimeLock,
             ReservedVesting,
             46,
